@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.display-flex {
+  display: flex;
+}
+.flex-dir-col {
+  flex-direction: column;
+}
+.jstf-ctnt-center {
+  justify-content: center;
+}
+.jstf-ctnt-end {
+  justify-content: flex-end;
+}
+.jstf-ctnt-start {
+  justify-content: flex-start;
+}
+.jstf-ctnt-sp-evenly {
+  justify-content: space-evenly;
+}
+.jstf-ctnt-sp-btwn {
+  justify-content: space-between;
+}
+.align-item-center {
+  align-items: center;
+}
+.align-item-start {
+  align-items: start;
+}
+.align-item-end {
+  align-items: end;
+}
+.width-100-perc {
+  width: 100%;
+}
+.width-50-perc {
+  width: 50%;
+}
+.width-40-perc {
+  width: 40%;
+}
+.width-27-perc {
+  width: 27%;
+}
+.pad-t-20 {
+  padding-top: 20px;
+}
+.pad-10 {
+  padding: 10px;
+}
+.width-100-vh {
+  width: 100vh;
+}
+.pos-abs {
+  position: absolute;
+}
+.pos-rel {
+  position: relative;
+}
+.cur-pointer {
+  cursor: pointer;
+}
+.trans {
+  transition: all 0.3s ease-in-out;
+}

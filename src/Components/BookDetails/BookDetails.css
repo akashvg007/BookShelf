@@ -1,0 +1,176 @@
+.book-name {
+  font-size: 40px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  color: #c3a572;
+  margin-bottom: 40px;
+  margin-top: 0;
+  max-width: 360px;
+  text-align: left;
+}
+.book-image img {
+  width: 60px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.book-author {
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.book-publisher {
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: 0.43px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.book-description {
+  padding-top: 50px;
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.4px;
+  color: hsla(0, 0%, 100%, 0.7);
+  word-break: break-word;
+}
+.add-fav-btn {
+  background-color: #282a2c;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  align-items: center;
+}
+.add-plus {
+  font-size: 22px;
+  padding-left: 50px;
+}
+.fav {
+  padding-left: 40px;
+}
+.left-section {
+  padding-left: 50px;
+  font-weight: bolder;
+  min-width: 360px;
+}
+.close {
+  padding: 10px;
+  right: 0;
+}
+.book-body {
+  padding-left: 80px;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 300px) {
+  .book-name {
+    font-size: 20px;
+  }
+  .left-section {
+    padding-left: 20px;
+    min-width: 150px;
+  }
+  .add-fav-btn {
+    min-width: 90%;
+  }
+  .fav {
+    padding-left: 25px;
+    font-size: 16px;
+  }
+  .add-plus {
+    padding-left: 20px;
+  }
+  .book-body {
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .left-section {
+    padding-left: 30px;
+    min-width: 200px;
+  }
+  .add-fav-btn {
+    min-width: 100%;
+  }
+  .fav {
+    padding-left: 25px;
+    font-size: 16px;
+  }
+  .add-plus {
+    padding-left: 20px;
+  }
+  .book-body {
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .left-section {
+    padding-left: 40px;
+    min-width: 200px;
+  }
+  .add-fav-btn {
+    min-width: 80%;
+  }
+  .fav {
+    padding-left: 35px;
+    font-size: 18px;
+  }
+  .add-plus {
+    padding-left: 25px;
+    padding-right: 10px;
+  }
+  .book-body {
+    padding-left: 50px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .left-section {
+    padding-left: 80px;
+    min-width: 200px;
+  }
+  .add-fav-btn {
+    min-width: 80%;
+  }
+  .fav {
+    padding-left: 35px;
+    font-size: 18px;
+  }
+  .add-plus {
+    padding-left: 25px;
+    padding-right: 10px;
+  }
+  .book-body {
+    padding-left: 80px;
+    font-size: 24px;
+  }
+  .book-author {
+    font-size: 32px;
+  }
+  .book-publisher,
+  .book-description {
+    font-size: 24px;
+  }
+}

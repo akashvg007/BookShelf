@@ -1,0 +1,31 @@
+.slider-title {
+  font-size: 30px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.125;
+  letter-spacing: normal;
+  color: #fff;
+  padding-left: 10px;
+  margin: 0 0 16px;
+}
+.shelf-container {
+  height: 400px;
+  width: calc(100% - 40px);
+  padding: 20px;
+}
+.slider-container {
+  height: 500px;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.arrow-right {
+  top: 50%;
+  right: 20px;
+}
+.arrow-left {
+  top: 50%;
+  left: 20px;
+  transform: rotate(180deg);
+}

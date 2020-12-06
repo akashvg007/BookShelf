@@ -1,0 +1,120 @@
+.description-shelf {
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  max-width: 460px;
+  padding-left: 50px;
+}
+.heading {
+  font-size: 64px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.125;
+  letter-spacing: normal;
+  color: #fff;
+  padding-left: 50px;
+  margin: 0 0 16px;
+  padding-top: 50px;
+}
+.search {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #282a2c;
+  margin: 8px;
+}
+.heading-container {
+  width: 28%;
+}
+.logo {
+  font-size: 28px;
+}
+.logo img {
+  width: 100%;
+}
+
+.firstSectionLogo {
+  color: #fff;
+  background-color: #000000;
+  padding: 5px;
+}
+.lastSectionLogo {
+  background-color: #b46d1c;
+  color: #000;
+  padding: 5px;
+}
+
+@media screen and (min-width: 300px) {
+  .heading {
+    padding-left: 20px;
+    font-size: 40px;
+  }
+  .description-shelf {
+    padding-left: 20px;
+  }
+  .heading-container {
+    width: 80%;
+  }
+  .logo img {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .heading {
+    padding-left: 30px;
+    font-size: 50px;
+  }
+  .description-shelf {
+    padding-left: 30px;
+  }
+  .heading-container {
+    width: 70%;
+  }
+  .logo img {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .heading {
+    padding-left: 50px;
+    font-size: 58px;
+  }
+  .description-shelf {
+    padding-left: 50px;
+  }
+  .heading-container {
+    width: 70%;
+  }
+  .logo img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .heading {
+    padding-left: 50px;
+    font-size: 68px;
+  }
+  .description-shelf {
+    padding-left: 50px;
+    font-size: 24px;
+  }
+  .heading-container {
+    width: 70%;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .logo {
+    padding: 30px;
+  }
+}
